@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Personel Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="Satish/sp3.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Java Developer</p>
+                    <h1>Hi,I'm <span>Satish</span><br>Polampalli From Sangareddy</h1>
+                </div>
+            </div>
+        </div>
+        <!................about..........>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="Satish/satish.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 sub-title>About Me</h1>
+                        <p>Seeking a challenging role in a popular IT organization to utilize my technical skills that can contribute to the growth of the company and enhance my knowledge by exploring new things.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming Languages</span><br>Java,Python,C</li>
+                                <li><span>DSA</span><br>Java with data structures</li>
+                                <li><span>Database</span><br>SQL</li>
+                                <li><span>others</span><br>HTML,CSS,Excel,Matlab Simulink</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Worked as Intern at Teachnook</span><br>01/2023-05/2023|Bangalore<br>Supervise,hire,and train employees,manage quality assurance programs,and strategize process improvements.</li>    
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2019-2023</span><br>B.Tech in Electrical & Electronics Engineering<br>RGUKT Basar</li>
+                                <li><span>2017-2019</span><br>Pre-University Course in MPC<br>RGUKT Basar</li>
+                                <li><span>2016-2017</span><br>SSC<br>ZPHS Doulthabad</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!...............................services......................>
+        <div id="services">
+            <div class="container">
+                <h1 sub-title>My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fas fa-code"></i>
+                        <h2>Java Developer</h2>
+                        <p>Proficiency in Java, with a good understanding of its ecosystems and Sound knowledge of Object-Oriented Programming (OOP) Patterns and Concepts.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fas fa-crop-alt"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>I like making websites look pretty.I know that good design is just as important as good development and Analyze user feedback,activity to enhance user experience.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fab fa-app-store"></i>
+                        <h2>Operations Team Lead</h2>
+                        <p>Analyze, identify and respond with sensitivity to the system support needs of all internal users.Assist the Supervisor to ensure individual and team production goals are met.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!.............Portfolio..................>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="Satish/pso.jpg">
+                        <div class="layer">
+                            <h3>Major Project-II<br><span>01/2023-05/2023</span></h3>
+                            <h3>PSO Algorithm Based MPPT for PV System Operating under Partial Shading Condition</h3>
+                            <p>The Paticle Swarm Optimization technique is used in this work to determine the GM PP by measuring peak power.</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Satish/wind.jpg">
+                        <div class="layer">
+                            <h3>Major Project-I<br><span>07/2022-12/2022</span></h3>
+                            <h3>Design of Wind Turbine energy System</h3>
+                            <p>Wind mill converts wind energy to mechanical or electrical energy.Modern wind turbines are used to capture Kinetic energy from wind to generate electricity.</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Satish/u.png">
+                        <div class="layer">
+                            <h3>Minor Project<br><span>03/2022-06/2022</span></h3>
+                            <h3>Radar System Using Arduino UNO and Ultra Sonic Sensor</h3>
+                            <p>Radar is an object detection system uses radio waves to determine the range,altitude,direction,or speed of objects.</p>
+                        </div>
+                    </div>
+                    <div>
+                    </div>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+        </div>
+
+            <!......................contact..............>
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p><i class="fas fa-paper-plane"></i>polampallisatish9000@gmail.com</p>
+                            <p><i class="fas fa-phone-square-alt"></i>6302116805</p>
+                            <div class="social-icons">
+                                <a href=""><i class="fab fa-facebook"></i></a>
+                                <a href="https://www.linkedin.com/in/satish-polampalli-035654278"><i class="fab fa-linkedin"></i></a>
+                                <a href=""><i class="fab fa-twitter-square"></i></a>
+                                <a href="https://www.instagram.com/_itz_satish14?igshid=ZGUzMzM3NWJiOQ=="><i class="fab fa-instagram"></i></a>
+                            </div>
+                            <a href="Satish/Polampalli_Satish_Resume_23-05-2023-10-32-00.pdf" class="btn btn2">Download Resume</a>
+                        </div>
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="email" name="Email" placeholder="Your Email" required>
+                                <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                                <button type="submit" class="btn btn2" >Submit</button>
+                            </form>
+                            <span id="msg">Hello</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Satish Polampalli<i class="fas fa-heart"></i>Sangareddy</p>
+            </div>
+
+        </div>
+        <script>
+            var tablinks=document.getElementsByClassName("tab-links");
+            var tabcontents=document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemenu=document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right="0";
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbynzY6yP_7GWNoVoGElYLJ62vOKBARrEAZpH71w_FmWvvLoMgnnE1fUC0Ae0D3tEJqe/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg=document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
